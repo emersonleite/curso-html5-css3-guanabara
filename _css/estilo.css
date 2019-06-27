@@ -1,0 +1,278 @@
+@charset "UTF-8"; /*tipo de codificação Unicode*/
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web); /*importar do google fonts*/
+
+@font-face  {
+	font-family:'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}													/*Utilizando fontes de pastas*/
+
+
+/*Formatação de body*/
+
+body{
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+/*Formatação para <div>*/
+
+div#interface{
+	width: 900px;									/*largura da <div> com id "interface"*/
+	background-color:white;
+	margin: -20px auto 10px auto; 					/*margens na ordem: cima, direita, baixo, esquerda, onde auto é para automática. Facilidade para centralizar o elemento*/
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);		/*delocamento lateral, deslocamento vertical, espalhamento da sombra,cor da sombra  */
+	padding: 10px 10px 10px 10px;					/*espaçamento interno: cima, direita, baixo, esquerda, onde auto é para automática. Afastar texto da borda*/			
+}
+
+/*Formatação para parágrafo*/
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+/*Formatação para links*/
+
+a {
+	color: #606060;				/*cor do texto com link*/
+	text-decoration: none;		/*Sem sublinhado ou qualquer outro efeito*/
+}
+
+a:hover {						/*Formatação para links com mouse em cima*/
+	text-decoration: underline;
+}
+
+/*Formatação de header*/
+
+header#cabecalho img#icone {					/*Guanabara colocou header#cabecalho img#icone , não precisa da primeira sentença. Só se for para organização */
+	position:absolute;
+	right:200px;
+	top:70px;
+	
+}
+
+header#cabecalho { 
+	border-bottom: 1px #606060 solid;				/*borda de baixo, largura, cor e tipo*/
+	height:150px;									/*altura do cabeçalho*/
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;							/*colocar imagem direto pelo css. O ".." é para voltar uma pasta. no-repeat para não repetir. Deslocamento horizontal e vertical*/
+}
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;						/*fonte*/
+	font-size: 30px;									/*tamanho da fonte*/
+	color:#606060;										/*cor da fonte*/
+	text-shadow:1px 1px 1px rgba(0,0,0,0.6);			/*sombra*/
+	padding: 0px;
+	margin-bottom:0px;									/*parâmetro margin para base para juntar ao texto de baixo*/
+}
+
+header#cabecalho h2 {
+	/*font-family: Arial, sans-serif;						/*escolha da fonte*/
+	font-family: 'Titillium Web', sans-serif;			/*Utilizando fonte do google fonts*/
+	font-size: 15px;									/*tamanho da fonte*/
+	color:#888888;										/*cor da fonte*/
+	padding: 0px;
+	margin-top:0px;										/*parâmetro margin para topo para juntar ao texto de cima*/
+	}
+
+
+/* Formatação de imagem com legendas*/
+
+figure.foto-legenda {
+	position: relative; /* deixar posição relativa para figcaption ficar com posição absoluta dentro de figure*/
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black; /*efeito de sombra*/
+}
+
+figure.foto-legenda img { /*figura se ajusta à janela*/
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0; /*espaço dentro de figure*/
+	position: absolute; /*posição com relação ao elemento pai que é figure*/
+	top: 0px; /*distância do topo*/
+	background-color: rgba(0,0,0,0.4); /*fundo transparente para figcaption*/
+	color: white; /*cor da fonte*/
+	width: 100%; /*largura para figcaption preencher 100% de figura*/
+	height: 100%; /*altura para figcaption preencher 100% de figura*/
+	padding: 10px; /*espaço dentro de figure*/
+	box-sizing: border-box; /*box dentro da borda*/
+	transition: opacity 1s; /*transição demora 1 segundo para aparecer o figcaption*/
+
+}
+
+figure.foto-legenda:hover figcaption { /*legenda aparece quando passar o mouse em cima*/
+	opacity: 1;
+}
+
+
+/*Formatação do menu*/
+
+nav#menu {
+	display: block;				/*mostrar menu em forma de bloco, que pode flutuar pela tela*/			
+}
+
+nav#menu ul { 					/*estilo aplicado a ul*/		
+	list-style: none;  			/*retirada dos marcadores das li*/
+	text-transform: uppercase;  /*Letras em caixa alta*/
+	position: absolute;			/*posição em que o elemento fica livre pelo site. Se for relative, ele fica presa dentro do conteiner*/
+	top:-20px;					/*negativo para compensar a margem interna padrão do site*/
+	right:220px;
+	
+}
+	
+nav#menu li { 						/*estilo aplicado a li*/		
+	display: inline-block;			/*itens de li dispostos em linha*/
+	background-color: #dddddd;		/*aplicando cor de fundo*/
+	padding:10px;					/*espaço na caixa de texto*/
+	margin: 2px;						/*espaço na entre as caixas de texto*/
+	transition: background-color 1s;	/*transição para mudança na cor do fundo do menu*/
+}
+
+nav#menu li:hover {
+	background-color: #606060;	/*muda cor do fundo do menu ao passar o mouse em cima*/
+}
+
+nav#menu h1 {
+	display: none;				/*Não mostrar o título menu principal*/
+} 
+
+nav#menu a {
+	color: #000000;				/*Cor da letra com tag <a>, ou seja, com link */
+	text-decoration: none;		/*Retirar underline*/
+}
+
+nav#menu a:hover {
+	color: #ffffff;				/*Cor da letra com tag <a>, ou seja, com link, quando se passa o mouse */
+	text-decoration: underline; /*colocar underline*/
+}
+
+
+/*Formatação de section*/
+
+section#corpo{
+	display: block;						/*Mostrar como um bloco*/
+	width: 500px;						/*largura do section*/
+	float: left;						/*section flutuando à esquerda*/
+	border-right: 1px solid #606060;	/*borda à direita*/
+	padding-right: 20px;
+}
+
+/*Formatação de article*/
+
+article#noticia-principal h2 {
+	font-size: 12pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.direita {							/*Aplicado a h3 em header#cabecalho*/
+	text-align: right;
+}
+
+header#cabecalho-artigo h2{
+	font-size: 13pt;
+	color:#cecece;
+	background-color:#ffffff;
+	margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12px;
+	color: #606060;
+	
+}
+
+/*Formatação da tabela*/
+
+table#tabelaspec {
+	border: 1px solid #606060; 		/*borda da tabela*/
+	border-spacing: 0px;			/*espaço entre as bordas*/
+	margin-left: auto;				/*centralizar dados*/
+	margin-right: auto;
+}
+
+table#tabelaspec td {
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;				/*centralizar texto*/
+	vertical-align: middle;			/*centralizar textona vertical*/
+}
+
+table#tabelaspec td.ce {			/*aplicado à classe ce*/
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;			/*Alinhamento vertical no topo*/
+	font-weight: bold;				/*Aplicando bold*/
+	
+	
+}
+table#tabelaspec td.cd {
+	background-color: #cecece;
+}
+
+table#tabelaspec caption {
+	color: #888888;
+	font-size: 14pt;
+	font-weight: bolder;			/*Aplicando bold mais bold...*/
+	
+}
+	
+table#tabelaspec caption span {
+	display: block;					/*vai se desconectar do texto*/
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;	 			/*para deixar o texto mais perto da linha da tabela*/
+}
+	
+/*Formatação de aside, barra de navegação lateral*/
+
+aside#lateral {
+	display: block;						/*Mostrar como um bloco*/
+	width: 350px;						/*largura de aside*/
+	float: right;						/*aside flutuando à direita*/
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+aside#lateral h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+}
+
+aside#lateral h2 {
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+	padding: 5px;
+}
+
+/*Formatação de footer*/
+
+footer#rodape {
+	clear:both;							/*interromper a flutuação de footer para ele voltar à posição*/
+	border-top: 1px solid #606060;		/*borda no topo*/
+}
+
+footer#rodape p {
+	text-align: center;					/*centralizar texto de footer*/
+}

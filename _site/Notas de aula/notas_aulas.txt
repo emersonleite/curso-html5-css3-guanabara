@@ -1,0 +1,350 @@
+AULA 
+
+Formas de colocar cor no html5
+
+
+background-image: url("fundo.jpg");		cor de fundo
+background-color: rgb(35,137,195);
+background-color: rgba(35,137,195,1);
+background-color: hsl(165,34%,45%);
+background-color: hsla(165,34%,45%,0.5);
+color: rgba(0,0,0,0.5);    			cor de letra
+
+AULA
+
+Sempre diminuir tamanho das imagens. N�o diminuir ela na visualiza��o somente. Pois ela vai continuar grande no tamanho
+(espa�o disco).
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 11
+
+ol - Ordered lists
+ul - Unordered lists
+li - list itens
+
+Parâmetros das listas ordenadas:
+
+type: "a" (a, b, c) , "A" (A, B, C) , "i" (i,ii...) , "I" (I, II, III);
+start: onde começa a lista. Usar somente números. 
+
+Parâmetros das listas não ordenadas:
+
+type: "square", "circle", "disc".
+
+Possível encadeamento de listas.
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 12 -  Links em HTML5
+
+Criando links em sites HTML5.
+
+Vamos entender como realizar ligações entre sites ou entre páginas dentro de um mesmo site. Para 
+
+criar um link em HTML5, basta criar uma âncora utilizando a tag A.
+
+O parâmetro Hypertext Reference, ou HREF. Ele cria uma referência hipertexto para outras páginas.
+
+O parâmetro TARGET da tag A vai permitir indicar em qual janela o conteúdo será aberto. 
+
+O valor _blank vai permitir abrir em uma janela em branco, enquanto o parâmetro _self vai abrir o conteúdo na janela atual.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+***
+
+Exemplo de link: 
+<a href="http:/glass.google.com">Project Glass</a> - tag <a>
+
+<a href="http:/glass.google.com" target="_blank">Project Glass</a> - abrir link 
+outra aba - parâmetro -> target="_blank" .
+
+<a href="http:/glass.google.com" target="_self">Project Glass</a> - abrir link 
+na mesma aba - parâmetro -> target="_self" .
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 13 - Menu com CSS3
+
+Veja como criar um menu suspenso utilizando apenas HTML5 e CSS3 nessa aula do professor Gustavo Guanabara.
+
+A partir do HTML5, a tag NAV é utilizada para criar áreas de navegação. Com o CSS3, podemos configurar posicionamento, cores, efeitos de transição
+
+e outros comportamentos. Nessa aula, veremos como transformar uma lista com demarcadores em um menu flutuante para o nosso site.
+
+Para realizar essas configurações, aprenderemos alguns parâmetros de CSS3, como:
+
+Modificar o formato da lista, eliminando os demarcadores com o LIST-STYLE
+Utilizando o TEXT-TRANSFORM com o valor UPPERCASE, alteramos todas as letras de cada item para maiúsculas, independente da maneira que foram escritas.
+
+Com a configuração DISPLAY com o valor INLINE-BLOCK, você vai conseguir alterar a posição de cada item da lista.
+
+As propriedades BACKGROUND-COLOR e COLOR modificam a cor do objeto.
+
+Com o PADDING, vamos configurar o espaço interno de cada objeto, enquanto o MARGIN vai definir o espaço externo de cada um deles.
+
+O POSITION do CSS3, vai configurar qual será a base de movimentação em relação ao seu objeto container. Os valores aceitos são ABSOLUTE e RELATIVE.
+
+As propriedades LEFT e TOP vão configurar a posição do objeto em suas grandezas em pixels para o lado esquerdo e borda superior, respectivamente.
+
+Utilizando a propriedade DISPLAY com o valor NONE, podemos esconder determinados objetos utilizando CSS3.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+***
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 14 - Efeitos visuais em CSS3
+
+Vamos aprender alguns efeitos bem interessantes utilizando o CSS3.
+
+Utilizando o modificador :HOVER aplica o efeito quando movemos o mouse por cima de um objeto.
+
+Com o seletor TRANSITION, podemos monitorar alterações nos objetos e fazer efeitos de transição.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 15 - Formatação de Interfaces com HTML5
+
+Template HTML5 grátis. A construção de interfaces em HTML5 necessita da organização das áreas do nosso site. Podemos fazer isso em qualquer tag, incluindo DIV, HEADER, ARTICLE, FOOTER e muitas outras.
+
+O modificador WIDTH vai configurar a largura de um objeto. O posicionamento em CSS pode ser ABSOLUTE ou RELATIVE.
+
+A centralização de um objeto em CSS3 é utilizando o parâmetro MARGIN.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+***
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 16 - Cabeçalho em CSS3
+
+Nessa aula, veremos como criar cabeçalhos para sites HTML5 utilizando CSS3 e alguns parâmetros adicionais para realizar uma formatação.
+
+- Os modificadores BORDER-TOP, BORDER-BOTTOM, BORDER-LEFT e BORDER-RIGHT configura linhas em volta do objeto e aceita valores como SOLID, DOTTED, DASHED, etc.
+
+Para carregar imagens via CSS, podemos utilizar o modificador BACKGROUND usando a função URL para carregar o arquivo no fundo dos objetos. Utilizando o parâmetro NO-REPEAT para que ele não repita o objeto.
+
+Para a configuração de texto, utilizaremos FONT-FAMILY, FONT-SIZE, COLOR e TEXT-SHADOW.
+
+Além disso, configuramos os espaços internos e periféricos dos objetos com os parâmetros MARGIN e PADDING e suas variações MARGIN-BOTTOM e MARGIN-TOP.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 17 - Fontes em CSS3
+
+Como mudar a fonte de um site usando CSS3 e um arquivo True Type Font (TTF) com fontes personalizadas em CSS3.
+
+Utilizando o modificador @FONT-FACE das CSS3, com o FONT-FAMILY e o SRC, poderemos criar fontes personalizadas utilizando CSS3.
+
+O usuário que visita o seu site não precisa ter a fonte instalada. Ela é instalada automaticamente.
+
+Como usar Google Fonts para inserir uma fonte personalizada do seu site utilizando o @IMPORT.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 18 - Semântica em HTML5
+
+Como usar as tags SECTION, ASIDE e FOOTER. O HTML5 possui algumas tags que dão significado ao conteúdo da página.
+
+SECTION: Cria uma sessão que vai poder conter vários artigos (ARTICLE) ou objetos.
+
+ASIDE: São conteúdos periféricos, que estão diretamente relacionados ao conteúdo do artigo principal.
+
+FOOTER: É o rodapé da página ou do conteúdo específico.
+
+Para configurar essas tags e utilizar o posicionamento correto, utilizaremos o CSS3 com os modificadores DISPLAY: BLOCK e o FLOAT para gerar uma flutuação.
+
+Caso seja necessário interromper a flutuação, utilizaremos o modificador CSS CLEAR:BOTH para eliminá-la.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 19 - Tabelas em HTML
+
+Como criar tabelas em HTML5? Veremos nessa aula, como utilizar as tags TABLE, CAPTION, TR, TD e muitas outras usadas para criar tabelas em sites HTML.
+
+Cada linha da tabela em HTML será uma Table Row, ou TR.
+Cada célula de dados será uma Table Data, ou TD.
+
+Observação: A partir do HTML5, os fechamentos das tags /TR (table rows - linhas) e /TD (table data) são opcionais e podem ser omitidas.
+
+Utilizando CSS3, podemos utilizar alguns modificadores para formatar a tabela, usando BORDER para criar bordas sólidas para TABLE, TR e TD.
+
+O modificador BORDER-SPACING das CSS modifica o espaço entre as células de uma tabela.
+
+No HTML, podemos realizar ROWSPAN, que vai criar uma expansão de linha nas células.
+
+De maneira similar, utilizando COLSPAN, teremos uma expansão de coluna nas células de uma tabela HTML5.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 20 - Estilos CSS para Tabelas em HTML5
+
+Veja como criar estilos de formatação com CSS3 para tabelas feitas em HTML5.
+
+Na aula anterior do Curso de HTML5, fizemos a criação de uma TABLE utilizando parâmetros como COLSPAN e ROWSPAN. Nessa aula, formataremos a tabela criada utilizando CSS3, com modificadores como VERTICAL-ALIGN.
+
+Veja como formatar cada coluna de uma tabela com cores diferentes, utilizando o parâmetro CLASS diferentes para cada coluna..
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+***
+Possivel aplicar o conceito de classe para varios elementos de uma 
+tabela. O id pode ser aplicado à somente um objeto. Para formatar
+por exemplo uma coluna de uma tabela, é possível utlizar uma classe
+para os td's correspondentes.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 21 -  Interfaces em HTML5
+
+Veja como construir interfaces complexas utilizando apenas HTML5 e CSS3. Na versão 5, temos várias tags semânticas como HEADER, SECTION, ASIDE, NAV, FOOTER e ARTICLE.
+
+Para criar um artigo em HTML5, utilize a tag ARTICLE. Os conteúdos relacionados a esse artigo podem ser tratados como ASIDE.
+
+É importante saber que podemos usar a tag HEADER para qualquer tipo de cabeçalho, não apenas para o cabeçalho do site. Nessa aula, veremos que um ARTICLE também pode possuir um cabeçalho HEADER.
+
+Para formatar os componentes, utilizamos alguns modificadores das CSS3, como:
+margin, padding, color, background-color, font-family e muito mais.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+***
+Uma mesma <section> pode ter vários <article>.
+
+<header> pode ser utilizado para criar cabeçalho do site, de seção, de artigos, etc...
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 22 - Introdução ao JavaScript
+
+Introdução ao JavaScript. Veja como criar programas simples com a linguagem JS, criada e popularizada pela empresa Netscape.
+
+Vamos aprender alguns comandos específicos e introdutórios do JavaScript, como o alert, document.write, Date
+
+História do JavaScript: em 1992, a OpenWave estava criando a linguagem Cmm, rebatizada para ScriptEase, quando foi comprada pela Netscape. O projeto então passou a se chamar Mocha e logo em seguida (1995) teve seu nome modificado para LiveScript. Por conta de uma negociação com a Sun Microsystems (criadora do Java), uma jogada de marketing mudou o nome da linguagem para JavaScript.
+
+JavaScript não é Java. Ela apenas usa nomes semelhantes por conta da jogada explicada anteriormente. Ambas se parecem por conta da origem, baseada em Linguagem C (C-like).
+
+Atualmente, existe uma versão padronizada do JavaScript, o ECMAScript que está na versão 5.0. O JavaScript atualmente está na versão 1.8.5.
+
+O JavaScript se popularizou e temos várias tecnologias relacionadas, como Ajax, jQuery e CommonJS.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 23 - JavaScript com Objetos
+
+HTML5 + JavaScript
+
+Entenda JavaScript e veja como trabalhar com FUNCTION para criar funções que são disparadas de acordo com alguns eventos no HTML5, como ONCLICK e ONMOUSEMOVE.
+
+Aprenda a referenciar objeto dentro do JavaScript com DOCUMENT.GETELEMENTBYID().
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 24 -  Funções JavaScript
+
+Como criar funções em JavaScript que recebem parâmetros. Além disso, veremos o conceito de máquina de estados para aprimorar ainda mais nossos scripts.
+
+Essa é a terceira aula que aborda os conceitos de JavaScript. Se você perdeu alguma das aulas anteriores, não deixe de conferir em:
+
+JavaScript – Aula 01: http://cursoemvideo.com/lesson/curso-de-html5-22-introducao-ao-javascript/
+JavaScript – Aula 02: http://youtu.be/zfrX_VZ5Fb4
+
+Se quiser, pode ainda acessar a lista de reprodução completa em:
+
+http://www.youtube.com/watch?v=epDCjk…
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 25 - Integrando JavaScript e HTML5
+
+Como juntar JavaScript e HTML5 em uma mesma página. Veja como integrar scripts aos seus códigos estáticos em linguagem HTML.
+
+Usando os métodos ONMOUSEOVER e ONMOUSEOUT do JavaScript para executar um procedimento em script chamado mudaFoto().
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 26 - Documentos Adicionais
+
+Nessa aula, faremos uma breve revisão de alguns conceitos semânticos de HTML5 e CSS3 para começarmos a criar uma página completa para as especificações técnicas.
+
+O DOWNLOAD DO PACOTE é feito clicando nos ícones ao lado.
+
+Nos editores JetBrains, as teclas de atalho Ctrl + Alt + T (Win) ou Cmd + Opt + T (MacOS) servem para criar tags que podem delimitar trechos de código.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 27 - IFRAME em HTML5
+
+Imagem em HTML5 e IFRAME usando HTML5 e CSS3.
+
+Veja como adaptar as suas páginas HTML5 ao padrão definido pela sua interface, seguindo o mesmo esquema em todos os documento.
+
+Também vamos inserir uma imagem com a tag IMG, que será utilizada juntamente com um mapa de imagem (na próxima aula).
+
+Veremos também como utilizar IFRAME em HTML5, utilizando os parâmetros NAME e ID. Além disso, faremos configurações de folha de estilo para formatar o IFRAME.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 28 - Mapas de Imagem
+
+Mapa de Imagem é uma técnica utilizada para criar múltiplos links em uma mesma imagem, criando áreas sensíveis ao clique em imagens para documentos HTML5.
+
+Dentro da imagem criada com a tag IMG do HTML5, devemos usar um parâmetro USEMAP.
+
+A tag utilizada para criar um mapa de imagem é a tag MAP no HTML5. A tag AREA do HTML5 permite que você defina o formato SHAPE e as coordenadas COORDS. Além disso, utilizaremos o TARGET para indicar o local onde o link será aberto.
+
+Os SHAPE compatíveis com mapas MAP em HTML5 são RECT, CIRCLE e POLY.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 29 - Álbum de Fotos em HTML5 (Parte 1)
+
+Como criar um álbum de fotos usando HTML5 e CSS3. Nessa aula, o professor Gustavo Guanabara (ou seria Optimus Prime?) vai mostrar uma maneira bem criativa de criar um álbum de fotos utilizando apenas listas e folhas de estilo.
+
+Utilizando as tags UL e LI, criaremos listas em HTML5. Cada um dos LI serão utilizados para carregar fotos. Utilizando a tag SPAN, criaremos legendas interativas para as fotos.
+
+Em CSS3, utilizaremos modificadores como WIDTH, PADDING, MARGIN, OVERFLOW e LIST-STYLE para configurar características da lista.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 30 - Álbum de Fotos em HTML5 (Parte 2)
+
+Dando continuidade na Criação de um Álbum de Fotos usando apenas HTML5 e alguns efeitos em CSS3, incluindo efeito de Zoom com CSS.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+AULA 31 - Áudio e Vídeo em HTML5
+
+Como adicionar Áudio e Vídeo com HTML5. A nova versão da linguagem suporta a inserção de conteúdo multimídia com HTML5.
+
+Com a tag AUDIO é possível adicionar um áudio a um site com HTML5.
+
+A tag VIDEO permite adicionar um vídeo a um site com HTML5.
+
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.
+
